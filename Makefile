@@ -9,7 +9,8 @@ COMMENT=	Free disk encryption software
 
 BUILD_DEPENDS=	nasm:devel/nasm \
     		pkgconf:devel/pkgconf \
-		makeself:archivers/makeself
+		makeself:archivers/makeself \
+		wxgtk30:x11-toolkits/wxgtk30
 
 USE_GITHUB=	yes
 GH_PROJECT=	veracrypt
